@@ -1,0 +1,37 @@
+{
+  "name": "tiny-ll-parser",
+  "version": "0.0.1",
+  "description": "simple ll js parser",
+  "main": "lib/index.umd.js",
+  "module": "lib/index.js",
+  "keywords": [],
+  "author": "chengjiaming",
+  "license": "MIT",
+  "directories": {
+    "tests": "tests"
+  },
+  "scripts": {
+    "build": "tsc -p ./src/tsconfig.json && rollup -c",
+    "test": "jest"
+  },
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.9",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "rollup": "^2.33.3",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.2"
+  },
+  "typings": "./lib/index.d.ts",
+  "dependencies": {},
+  "peerDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": ""
+}
